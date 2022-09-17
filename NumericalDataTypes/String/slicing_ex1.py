@@ -1,0 +1,14 @@
+
+#Ask user to enter a string and print a rotated len 2 version
+#where the 2 charachters mode to the end.
+#'Hello' - 'lloHe'
+#java' - vaja'
+
+print("Enter a text")
+s = input()
+
+first_two = s[:2]
+rest_of_string = s[2:]
+
+s = rest_of_string + first_two
+print(s)
