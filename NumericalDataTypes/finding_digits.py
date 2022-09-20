@@ -18,9 +18,11 @@ middle_digit = a % 10
 
 a = a // 10
 
-first_digit = a % 1
+first_digit = a % 10
 multiplication = last_digit * middle_digit * first_digit
+
 print("Multiplication result of all digit is", multiplication)
+# it will work for all numbers with three digit numbers.
 #Integer division will give us only the integer part of the division
 #for example
 #21 /5 is 4.20 but if I use integer division operator

@@ -1,5 +1,4 @@
 
-
 number = 23456
 
 # number = str(number)
